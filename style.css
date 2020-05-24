@@ -21,6 +21,19 @@ footer {
   border-top: 1px solid #e4e4e4;
 }
 
+a {
+  text-decoration: none;
+}
+
+.top-of-page a {
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 footer a {
   padding-left: 27px;
   font-size: 14px;
@@ -29,6 +42,11 @@ footer a {
 
 a.last-footer-link {
   padding-right: 27px;
+}
+
+.apps-png {
+  width: 24px;
+  height: 24px;
 }
 
 .logo {
@@ -52,11 +70,17 @@ a.last-footer-link {
 }
 
 .left-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 20px;
   left: 20px;
 }
 
 .right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 20px;
   right: 20px;
 }
@@ -119,10 +143,4 @@ a.last-footer-link {
 
 .two-links input:hover {
   border: 1px solid lightgray;
-}
-
-.top-of-page a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.87);
-  padding-left: 15px;
 }
